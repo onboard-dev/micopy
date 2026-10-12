@@ -1,0 +1,7 @@
+* text=auto
+*.bat  text eol=crlf working-tree-encoding=CP932
+*.ps1  text eol=crlf
+*.cs   text eol=crlf
+*.sh   text eol=lf
+*.png  binary
+*.ico  binary

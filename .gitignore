@@ -1,0 +1,10 @@
+# ビルド結果(実行ファイルは GitHub Releases で配布)
+bin/
+obj/
+*.micopy_tmp
+*.log
+*.lnk
+Thumbs.db
+desktop.ini
+tools/privacy-words.txt
+初期プロンプト.txt
