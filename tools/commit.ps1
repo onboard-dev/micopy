@@ -33,6 +33,7 @@ try {
     }
 
     & git.exe config core.quotepath false   # 日本語ファイル名をそのまま表示
+    & git.exe config core.safecrlf false    # 改行コード(LF→CRLF)変換の警告を表示しない
 
     # ---------- 名前とメールアドレス(コミットに記録されます) ----------
     $name = (& git.exe config user.name)
